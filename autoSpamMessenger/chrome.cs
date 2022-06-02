@@ -45,7 +45,7 @@ namespace autoSpamMessenger
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write(i);
             }
-            Thread.Sleep(TimeSpan.FromSeconds(2));
+            Thread.Sleep(TimeSpan.FromMinutes(2));
             Console.WriteLine();
             Console.ResetColor();
         }
